@@ -1,0 +1,15 @@
+---
+title: "Elements That You Can Use To Create A New Post On This Template."
+date: 2020-08-07T08:10:24+06:00
+# post thumb
+images:
+  - "images/post/post-6.jpg"
+#author
+author: "Orca"
+# description
+description: "This is meta description"
+# Taxonomies
+categories: ["photography"]
+tags: ["photo","image"]
+draft: false
+---

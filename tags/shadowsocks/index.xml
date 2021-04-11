@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ShadowSocks on imorca</title>
+    <link>https://imorca.com/tags/shadowsocks/</link>
+    <description>Recent content in ShadowSocks on imorca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Orca-2020</copyright>
+    <lastBuildDate>Sat, 11 Aug 2018 20:20:52 +0800</lastBuildDate><atom:link href="https://imorca.com/tags/shadowsocks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bandwagon host vps 搬瓦工</title>
+      <link>https://imorca.com/post/bandwagon-host-vps/</link>
+      <pubDate>Sat, 11 Aug 2018 20:20:52 +0800</pubDate>
+      
+      <guid>https://imorca.com/post/bandwagon-host-vps/</guid>
+      <description>BandwagonHost 简单介绍 因其官网网站标识是BandwagonHost，有点类似BanWaGong的拼写，所以我们喜欢称作为搬瓦工。搬瓦工VPS是一款性价比比较高的便宜VPS主机，且适合入门级网友学习Linux和建站用途.
+（申明和建议：严禁利用VPS、服务器用于违规用途，我们必须正规使用）
+搬瓦工VPS，隶属于美国IT7公司旗下的一款低价OpenVZ VPS主机方案、2017年新增KVM VPS架构，尤其是8款便宜年付VPS，无论从性价比还是稳定性都非常适合大众VPS用户需求，我们可以用来建站、Linux系统学习、软件调试，也可以完成各种初学者需要测试项目正规用途使用。 反正完全可以用作新手学习VPS主机选择性价比VPS使用。相继增加CN2线路、且在2017年10月份新增香港机房。
+ 注册账户并购买套餐 简介完毕，下面进入主题，BandwagonHost有很多套餐，但是对于个人用户来说我推荐下面这款套餐，物美价廉，完全满足我们个人的需求，配置如下：
+由于这个套餐在官网主页是看不到的，所以我们先点击图片注册
+
+注册完毕以后，来到管理面板，点击下图箭头所指的地方，OrderNewServices
+[]
+然后，完整复制括号内内容【SPECIAL 10G KVM PROMO V3 - LOS ANGELES - CN2】，按Ctrl+F查找，仔细对比确认无误后，点击箭头所示的，OrderNow{:target=&amp;quot;_blank&amp;quot;}，
+[]
+然后根据提示进行付款，付款的时候选择支付宝，然后扫一扫即可完成付款的哦。
+ 搭建SS服务 付款之后，找到这里，点击这个【Services-MyServices】
+
+点击跳转后，找到当前页面如下所示的地方，点击红色箭头指的那个
+
+然后来到了WEB端的管理界面，在左下角找到【OpenVPN Server】
+
+点击进去，按照提示进行操作即可。
+2019年5月13日 更新, 现在新购买的VPS找不到这个接口了, 那就手动搭建吧, 很快的相信我. 五分钟快速搭建GO版shadowsocks:
+// 新建文件夹 mkdir /usr/local/bin/shadowsocks cd /usr/local/bin/shadowsocks // 下载shadowsocks Golang二进制文件 wget &amp;lt;https://github.</description>
+    </item>
+    
+  </channel>
+</rss>

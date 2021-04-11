@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>如何使用 Github 同步 Visual Studio 2017/2019 项目</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is meta description">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.82.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://imorca.com/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://imorca.com/plugins/themify-icons/themify-icons.css">
+  
+  <link rel="stylesheet" href="https://imorca.com/plugins/slick/slick.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://imorca.com/scss/style.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://imorca.com/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="https://imorca.com/images/favicon.png" type="image/x-icon">
+
+  <meta property="og:title" content="如何使用 Github 同步 Visual Studio 2017/2019 项目" />
+<meta property="og:description" content="This is meta description" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://imorca.com/post/how-to-use-github-sync-visual-studio-2017-2019/" /><meta property="og:image" content="https://imorca.com/images/post/vs2019/visual-studio-2019.jpg" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2019-04-06T23:09:52&#43;08:00" />
+<meta property="article:modified_time" content="2019-04-06T23:09:52&#43;08:00" />
+
+
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-151312506-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-151312506-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="sticky-top bg-white border-bottom border-default">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white">
+      <a class="navbar-brand" href="/">
+        <img class="img-fluid" width="150px" src="https://imorca.com/images/logo.png" alt="imorca"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://imorca.com">主页</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://imorca.com/categories/google/">Google</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://imorca.com/categories/github/">Github</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://imorca.com/categories/%E6%8A%98%E8%85%BE/">折腾</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        
+
+        
+        <!-- search -->
+        <div class="search px-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="/search" class="h-100">
+              <input class="search-box pl-4" id="search-query" name="s" type="search" placeholder="Type &amp; Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section">
+  <div class="container">
+    <article class="row mb-4">
+      <div class="col-lg-10 mx-auto mb-4">
+        <h1 class="h2 mb-3">如何使用 Github 同步 Visual Studio 2017/2019 项目</h1>
+        <ul class="list-inline post-meta mb-3">
+          <li class="list-inline-item"><i class="ti-user mr-2"></i><a
+              href="/author/orca/">Orca</a></li>
+          <li class="list-inline-item">Date : April 6, 2019</li>
+          <li class="list-inline-item">Categories :
+            <a
+              href="/categories/github" class="ml-1">Github </a>
+            </li>
+          <li class="list-inline-item">Tags : <a
+              href="/tags/github" class="ml-1">Github </a> ,<a
+              href="/tags/vs2019" class="ml-1">Vs2019 </a> 
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-12 mb-3">
+        <div class="post-slider">
+          
+          <img src="https://imorca.com/images/post/vs2019/visual-studio-2019.jpg" class="img-fluid" alt="post-thumb">
+          
+        </div>
+      </div>
+      
+      <div class="col-lg-12 mx-auto">
+        <div class="content"><p>操作前提：</p>
+<p>1.已安装VS2017或者VS2019</p>
+<p>2.已安装Git</p>
+<p>好了，下面开始。首先右键点击项目，注意是在【解决方案”项目名称“】上面右键点击</p>
+<p><img src="/images/post/vs2019/visual-studio-2019-01.jpg" alt="1"></p>
+<p>然后单击“团队资源管理器”，</p>
+<p><img src="/images/post/vs2019/visual-studio-2019-02.jpg" alt="2"></p>
+<p>双击当前的项目，点击上方的同步按钮</p>
+<p><img src="/images/post/vs2019/visual-studio-2019-03.jpg" alt="3"></p>
+<p>找到下方的推送到“远程存储库”，点击发布Git存储库，在弹出的窗口中登录自己的Gtihub账号</p>
+<p><img src="/images/post/vs2019/visual-studio-2019-04.jpg" alt="4"></p>
+<p>网页登录Github账户，新建一个空的仓库【repository】，注意不要勾选下方的初始化README按钮，默认即可，点击“Create repository”</p>
+<p><img src="/images/post/vs2019/visual-studio-2019-05.jpg" alt="5"></p>
+<p>接着打开新建的仓库，点击最右侧的那个绿色按钮，复制弹出窗口中的那个地址，即刚才新建的仓库的地址，粘贴到记事本上，后面需要用到</p>
+<p><img src="/images/post/vs2019/visual-studio-2019-06.jpg" alt="6"></p>
+<p>此时操作VS2019， 打开“团队资源管理器”窗口，将刚才从Github仓库中复制下来的地址填入下方箭头所示位置，然后点击”发布“</p>
+<p><img src="/images/post/vs2019/visual-studio-2019-07.jpg" alt="7"></p>
+<p>好了，到这里就可以了。</p>
+<p>不过有可能你会遇到提示同步失败的问题，比如同步窗口提示这个错误：</p>
+<p><img src="/images/post/vs2019/visual-studio-2019-08.jpg" alt="8"></p>
+<p>输出窗口是这样：</p>
+<p><img src="/images/post/vs2019/visual-studio-2019-09.jpg" alt="9"></p>
+<p>下面就是我的解决方案，都是一步一步摸索出来的，希望能帮到同样遇到这个困惑的你，如下图进行操作</p>
+<p>根据输出窗口的提示，在打开的命令行提示符内依次输出下面三条指令：</p>
+<p>【git pull origin master &ndash;allow-unrelated-histories】</p>
+<p>【git pull origin master】</p>
+<p>【git push origin master】</p>
+<p>下面是同步成功时“团队资源管理器窗口的状态”</p>
+<p><img src="/images/post/vs2019/visual-studio-2019-10.jpg" alt="10"></p>
+<p>嗯，解决了，就这样，有问题留言吧</p>
+</div>
+      </div>
+    </article>
+    
+    
+  </div>
+</section>
+
+<footer class="section-sm pb-0 border-top border-default">
+  <div class="container">
+   
+    <div class="scroll-top">
+      <a href="javascript:void(0);" id="scrollTop"><i class="ti-angle-up"></i></a>
+    </div>
+    <div class="text-center">
+      <p class="content">Orca-2020</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Search index -->
+
+<script>
+  var indexURL = "https://imorca.com/index.json"
+</script>
+
+
+<!-- JS Plugins -->
+
+<script src="https://imorca.com/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://imorca.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://imorca.com/plugins/slick/slick.min.js"></script>
+
+<script src="https://imorca.com/plugins/search/fuse.min.js"></script>
+
+<script src="https://imorca.com/plugins/search/mark.js"></script>
+
+<script src="https://imorca.com/plugins/search/search.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://imorca.com/js/script.min.js"></script></body>
+
+</html>

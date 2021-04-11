@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>imorca</title>
+    <link>https://imorca.com/</link>
+    <description>Recent content on imorca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Orca-2020</copyright>
+    <lastBuildDate>Sat, 10 Apr 2021 12:14:52 +0800</lastBuildDate><atom:link href="https://imorca.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>解密Android格式化为内部存储的损坏的SD卡</title>
+      <link>https://imorca.com/post/android-decrypt-the-corrupt-sd-card-formatted-as-internal-storage/</link>
+      <pubDate>Sat, 10 Apr 2021 12:14:52 +0800</pubDate>
+      
+      <guid>https://imorca.com/post/android-decrypt-the-corrupt-sd-card-formatted-as-internal-storage/</guid>
+      <description>解密格式化为内部存储的损坏的SD卡
+当SD卡被Android手机格式化为内部存储后如何恢复数据
+前提：
+1.手机已经root
+2.手机未重置刷机等，保证 key 还在
+3.手机文件浏览器，比如ES Explorer或者Root Explorer
+4.十六进制编辑器，比如WinHex或者010Editor
+5.Linux系统， 虚拟机安装桌面环境，推荐Ubuntu20
+6.读卡器，将SD卡挂载到Linux内
+具体步骤：
+1.找到解密的key文件， 使用Root Explorer打开 /data/misc/vold 目录，会看到一个或多个以expand开头key结尾的文件，复制最新的那个到 /data/media/0 目录，
+2.将手机关机进入Recovery系统模式，电脑端打开手机的内部存储可以看到刚才复制出来的key文件，使用010Editor打开这个文件，将其内容以十六进制方式复制出来备用，类似下面这种形式：
+AB 36 E5 0B A6 B2 2F 04 19 F7 AE DC C0 37 3C C3
+3.将手机SD卡取出，插入到读卡器中，打开Ubuntu20虚拟机，将SD挂载到Ubuntu20虚拟机，终端执行命令
+dmsetup create crypt1 &amp;ndash;table &amp;ldquo;0 blockdev --getsize /dev/sdb2 crypt aes-cbc-essiv:sha256 AB36E50BA6B22F0419F7AEDCC0373CC3 0 /dev/sdb2 0&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Chrome 全屏看视频闪屏 黑屏</title>
+      <link>https://imorca.com/post/chrome-video-website-full-screen-black-screen/</link>
+      <pubDate>Thu, 06 Aug 2020 06:10:24 +0600</pubDate>
+      
+      <guid>https://imorca.com/post/chrome-video-website-full-screen-black-screen/</guid>
+      <description>最近发现使用chrome浏览器看视频的时候, 切换到全屏模式后, 屏幕会闪烁一下, Google之后找到了几个解决办法,操作如下: 1. 关闭硬件加速 如图所示:
+2. 修改Choose ANGLE graphics backend配置 Chrome(包括Edge Chromium和其他Chromium浏览器)地址栏输入: [chrome://flags/#use-angle]
+Windows机器建议把ANGLE调用的图形API阉割为D3D9。
+Google Chrome的硬件渲染一言难尽，Linux平台直接把Mesa甚至DRM搞挂都屡见不鲜，然而Google的解决方案居然不是修好硬件渲染而是SwiftShader。
+3. 卸载后重装 卸载Chrome，复制下面这个路径
+ %HOMEPATH%\AppData\Local\Google\Chrome
+ 到资源管理器里打开,然后整个删除，再次重新安装chrome就正常了</description>
+    </item>
+    
+    <item>
+      <title>2020-一文搞懂GoogleVoice[GV]-GoogleHangouts[环聊] 下载 注册 购买 使用</title>
+      <link>https://imorca.com/post/google-voice-lycamobile/</link>
+      <pubDate>Sun, 15 Mar 2020 15:40:24 +0600</pubDate>
+      
+      <guid>https://imorca.com/post/google-voice-lycamobile/</guid>
+      <description>GoogleVoice 是什么  Google Voice 是由Google推出的VOIP服务，能够将个人所用的众多电话号码集中成为一个号码，同时提供许多加值服务，它在美加地区提供的免费语音通话和短信服务。该服务由Google于2009年3月11日收购GrandCentral后推出[1]，并且从2009年6月开始邀请一些志愿者参与实验。
+Google Voice服务就是以一个Google提供给你的免费电话号码，或是自己付费转移的号码，来集成用户生活当中所有会接触到的电话，如家居、办公室、手机等，换句话说就相当于公司里的总机小姐。Google在官方网站上提供了短片说明：“当有人打电话给你，而且他们不必考虑该打家里的号码、办公室的号码，还是手机。而拥有Google号码的你，可以决定哪部电话该响。”你打电话到Google Voice的电话号码，全部的机器都会响，你可以选择用那个接听。
+目前 Google Voice应用程序可以显示中文，也可以发送中文短信，但中文短信的正确显示视电信公司以及手机是否支持而定，。
+2009年11月后，Google Voice可以支持自身的手机号码为Google Voice号，而Google则分配一个区号为916的号码作为Voice Mail的号码，在这种模式的Google Voice是没有短信功能的。
+最初，Google Voice可向世界各地免费发送短信，但2010年6月初，Google Voice只能向美国手机发送免费短信，停止了国际短信发送功能。
+除了集成多只电话号码的功能之外，Google Voice也提供一般电话的功能，如来电显示、阻挡来电、电话留言语音、多方通话等；并且提供一个集成的留言信箱，将用户所有电话的留言汇集到同一个信箱当中，方便查询。Google Voice也能将用户的留言转成声音文件，发到用户的电子邮件信箱当中，甚至将留言编写成文字，传到电脑。
+使用Google Voice服务可以免费拨打美国或加拿大境内的任何电话，而国际电话(非北美地区)的费用也比传统电话便宜，比如拨打中国大陆的价格为1美分/分钟，香港的价格为2美分/分钟，台湾市话:2美分/分钟、手机：8美分/分钟[3]。由于Google Voice展现出强大的集成功能，所以许多科技分析家都认为，它将给传统电话公司如AT&amp;amp;T、Verizon威讯公司等带来冲击，也会打击近几年发展的VoIP网络电话，比如 Skype、Vonage等。
+Google Voice在绑定的时候需要提供美国本地（google博客中有人提及局部加拿大的区号也可以）的手机，座机或者Gizmo5的号码，而很多美国外用户可以使用Gizmo5提供的免费的虚拟号码转到Gtalk或者Skype上从而实现绑定。
+2010年6月23日谷歌在公司官方博客上宣布，其电话管理应用软件Google Voice（谷歌电话）现在对所有美国人免费开放，不再要求用户受邀才能签约服务。
+不过美利坚大学Kogod商学院的资讯管理项目主任吉尔·克莱因教授分析，由于技术和本质上的不同，Google Voice在短期那还无法对这些公司造成影响，不过若Google持续扩展提供的服务与功能，则有可能对市场造成冲击。
+克莱因说：“它（Google Voice）的确给在美国的传统手机电信商带来挑战，不过人们并不会因此就停止花大钱订购威讯、AT&amp;amp;T、Sprint Nextel，或T-Mobile等公司的服务，因为他们还是需要这些电话。那些网络电话，它们特别注重在国际电话服务上头，而Google Voice的国际电话也是要收费的。不过如果你是个非常依赖Google的人，使用Gmail、使用Google Voice、使用Google Talk等等，这些服务将会直接冲击网络电话公司。”不过克莱因教授也说，Google Voice对于个人用户或小公司的吸引力较大，大型企业用户则可能因为考虑业务机密或是公务和隐私的分际，而为之却步。克莱因教授说：“如果你有手机，又有家里电话，又有办公室电话，Google Voice能给你很大的控制权。不过当我们谈到大型的企业，就可能面临一些挑战，因为某些企业并不会希望员工将电话转接到Google Voice上头。但是对于小型企业或个体户而言，这是个很棒的机会，能够增加行动性，并且随时掌握来电。”
+Gmail集成Google Voice, 2010年八月末，在Gmail下载插件后可以直接拨打Google Voice。 在美加地区拨打美加电话免费，在其他地区则依各地区不同费率收费，详细费率请点击 Google Voice 费率查询。</description>
+    </item>
+    
+    <item>
+      <title>ssh remote rsa login</title>
+      <link>https://imorca.com/post/ssh-remote-rsa-login/</link>
+      <pubDate>Sat, 11 May 2019 15:40:24 +0600</pubDate>
+      
+      <guid>https://imorca.com/post/ssh-remote-rsa-login/</guid>
+      <description>为了VPS的安全以及远程连接方便，设置成使用SSH Key免密码登录 1.生成RSA密钥对 用SSH连接远程服务器后，执行下面命令：
+ssh-keygen -t rsa 一路Enter即可
+Generating public/private rsa key pair. Enter file in which to save the key (/root/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /root/.ssh/id_rsa. Your public key has been saved in /root/.ssh/id_rsa.pub. The key fingerprint is: SHA256:vO61YRuS6arVT7omHaN2WZg8PQZy7TzukG8Wf0lNZxk root@ubuntu1804 The key&amp;#39;s randomart image is: +---[RSA 2048]----+ | | | E | | .</description>
+    </item>
+    
+    <item>
+      <title>How to use Hugo and Github Create Static Blog</title>
+      <link>https://imorca.com/post/how-to-use-hugo-and-github-create-static-blog/</link>
+      <pubDate>Sun, 07 Apr 2019 07:09:52 +0800</pubDate>
+      
+      <guid>https://imorca.com/post/how-to-use-hugo-and-github-create-static-blog/</guid>
+      <description>Hugo &amp;amp; Github 搭建静态博客 操作前提： 1.安装Hugo 2.安装git及后续
+ 下面分为两个部分 第一部分, 安装Hugo 使用Hugo建立本地网站,详细教程见官网： https://gohugo.io/getting-started/quick-start/
+简单步骤：
+1.下载&amp;mdash;&amp;gt;解压&amp;mdash;&amp;gt;在Hugo同级目录新建一个文件夹，比如sites, 用来保存网站内容：
+2.将Hugo的安装目录加入到环境变量
+3.初始化新网站内容
+进入sites目录，【shift+右键】弹出右键菜单，选择“在此处打开命令窗口”，执行命令
+【hugo new site websitename 】 websitename 是自定义的，建议设置为网站主域名，以免混淆
+4.添加主题，到这里【https://themes.gohugo.io/】找一款自己喜欢的主题，找到其Github repo地址，命令行操作：
+【git clone https://github.com/silvanocerza/spectrum.git 】 // 后面的主题是随便挑的
+5.新建文章，命令行操作
+【hugo new posts/xxxxxx.md】 // markdown 格式文档，以后可在别处写好.md格式的文档，然后直接放入public目录
+6.修改网站config.toml配置文件
+7.本地预览博客效果，【hugo server】
+第二部分, 安装git及后续 将本地网站内容部署到github，Github Pages支持两种方式的网站部署，详细见官网介绍：https://pages.github.com
+这里使用【用户或者组织网站】的方式进行部署
+1.新建空仓库，仓库名称必须是username.github.io格式，【username必须是你个人github的账号名称】</description>
+    </item>
+    
+    <item>
+      <title>如何使用 Github 同步 Visual Studio 2017/2019 项目</title>
+      <link>https://imorca.com/post/how-to-use-github-sync-visual-studio-2017-2019/</link>
+      <pubDate>Sat, 06 Apr 2019 23:09:52 +0800</pubDate>
+      
+      <guid>https://imorca.com/post/how-to-use-github-sync-visual-studio-2017-2019/</guid>
+      <description>操作前提：
+1.已安装VS2017或者VS2019
+2.已安装Git
+好了，下面开始。首先右键点击项目，注意是在【解决方案”项目名称“】上面右键点击
+然后单击“团队资源管理器”，
+双击当前的项目，点击上方的同步按钮
+找到下方的推送到“远程存储库”，点击发布Git存储库，在弹出的窗口中登录自己的Gtihub账号
+网页登录Github账户，新建一个空的仓库【repository】，注意不要勾选下方的初始化README按钮，默认即可，点击“Create repository”
+接着打开新建的仓库，点击最右侧的那个绿色按钮，复制弹出窗口中的那个地址，即刚才新建的仓库的地址，粘贴到记事本上，后面需要用到
+此时操作VS2019， 打开“团队资源管理器”窗口，将刚才从Github仓库中复制下来的地址填入下方箭头所示位置，然后点击”发布“
+好了，到这里就可以了。
+不过有可能你会遇到提示同步失败的问题，比如同步窗口提示这个错误：
+输出窗口是这样：
+下面就是我的解决方案，都是一步一步摸索出来的，希望能帮到同样遇到这个困惑的你，如下图进行操作
+根据输出窗口的提示，在打开的命令行提示符内依次输出下面三条指令：
+【git pull origin master &amp;ndash;allow-unrelated-histories】
+【git pull origin master】
+【git push origin master】
+下面是同步成功时“团队资源管理器窗口的状态”
+嗯，解决了，就这样，有问题留言吧</description>
+    </item>
+    
+    <item>
+      <title>U盘无法复制文件, 报错 0x80071AC3</title>
+      <link>https://imorca.com/post/upan-0x80071ac3-error/</link>
+      <pubDate>Fri, 29 Mar 2019 20:20:52 +0800</pubDate>
+      
+      <guid>https://imorca.com/post/upan-0x80071ac3-error/</guid>
+      <description>&lt;p&gt;不知道什么原因，我的U盘插入Win7系统时无法复制文件，并弹出如下提示：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bandwagon host vps 搬瓦工</title>
+      <link>https://imorca.com/post/bandwagon-host-vps/</link>
+      <pubDate>Sat, 11 Aug 2018 20:20:52 +0800</pubDate>
+      
+      <guid>https://imorca.com/post/bandwagon-host-vps/</guid>
+      <description>BandwagonHost 简单介绍 因其官网网站标识是BandwagonHost，有点类似BanWaGong的拼写，所以我们喜欢称作为搬瓦工。搬瓦工VPS是一款性价比比较高的便宜VPS主机，且适合入门级网友学习Linux和建站用途.
+（申明和建议：严禁利用VPS、服务器用于违规用途，我们必须正规使用）
+搬瓦工VPS，隶属于美国IT7公司旗下的一款低价OpenVZ VPS主机方案、2017年新增KVM VPS架构，尤其是8款便宜年付VPS，无论从性价比还是稳定性都非常适合大众VPS用户需求，我们可以用来建站、Linux系统学习、软件调试，也可以完成各种初学者需要测试项目正规用途使用。 反正完全可以用作新手学习VPS主机选择性价比VPS使用。相继增加CN2线路、且在2017年10月份新增香港机房。
+ 注册账户并购买套餐 简介完毕，下面进入主题，BandwagonHost有很多套餐，但是对于个人用户来说我推荐下面这款套餐，物美价廉，完全满足我们个人的需求，配置如下：
+由于这个套餐在官网主页是看不到的，所以我们先点击图片注册
+
+注册完毕以后，来到管理面板，点击下图箭头所指的地方，OrderNewServices
+[]
+然后，完整复制括号内内容【SPECIAL 10G KVM PROMO V3 - LOS ANGELES - CN2】，按Ctrl+F查找，仔细对比确认无误后，点击箭头所示的，OrderNow{:target=&amp;quot;_blank&amp;quot;}，
+[]
+然后根据提示进行付款，付款的时候选择支付宝，然后扫一扫即可完成付款的哦。
+ 搭建SS服务 付款之后，找到这里，点击这个【Services-MyServices】
+
+点击跳转后，找到当前页面如下所示的地方，点击红色箭头指的那个
+
+然后来到了WEB端的管理界面，在左下角找到【OpenVPN Server】
+
+点击进去，按照提示进行操作即可。
+2019年5月13日 更新, 现在新购买的VPS找不到这个接口了, 那就手动搭建吧, 很快的相信我. 五分钟快速搭建GO版shadowsocks:
+// 新建文件夹 mkdir /usr/local/bin/shadowsocks cd /usr/local/bin/shadowsocks // 下载shadowsocks Golang二进制文件 wget &amp;lt;https://github.</description>
+    </item>
+    
+    <item>
+      <title>SONY XZP 刷机</title>
+      <link>https://imorca.com/post/sony-xzp/</link>
+      <pubDate>Sun, 29 Oct 2017 20:20:52 +0800</pubDate>
+      
+      <guid>https://imorca.com/post/sony-xzp/</guid>
+      <description>六月首发入XZP，手痒8.0，刷之。
+折腾步骤：
+1.驱动支持 源地址：http://www.flashtool.net/downloads_windows.php
+下载flashtool-0.9.23.1-windows.exe，默认安装后找到下图所示drivers目录，安装所需驱动，驱动安装选择前两个即可
+2.固件下载 Xperia Firmware Downloader [v5.2.0]
+源地址：
+https://forum.xda-developers.com/crossdevice-dev/sony/pc-xperifirm-xperia-firmware-downloader-t2834142
+Xperia Firmware 操作步骤：
+下载技巧：选择【Manual】手动复制链接到迅雷，按照文档指示步骤新建相应文件夹，迅雷下载时注意目录选择，一定要一一对应。 由于文件众多，迅雷下载设置如下，所有文件下载完毕十五分钟左右【视网速决定】：
+迅雷下载完毕，去除所有文件的后缀【.null】，TC操作:Ctrl+A后Ctrl+M
+文件重命名完毕，点击Merge按钮，得到下图所示的三个文件
+此时操作flashtool，对其进行解密，解密后得到30个文件和两个文件夹：
+3刷机工具 Newflasher v10 :
+https://forum.xda-developers.com/crossdevice-dev/sony/progress-newflasher-xperia-command-line-t3619426
+Newflasher v10 下载后解压复制到跟各种.sin .ta等文件一个目录，如图：
+提醒想用谷歌服务的同时开启移动volte的朋友，使用国行oem.sin文件替换后刷入即可，文末提供国行oem.sin。
+绿灯连接XZP【关机后按住音量下键不放同时连接数据线】，双击Newflasher工具等待刷机完成
+刷机注意事项，前两个输入n， 耐心等待即可
+PS：下列三点同时满足的情况机器开机时出现FRP锁：
+1.国行机器刷入港行的固件
+2.登录Google账户
+3.在未移除当前登录的Google账户时再次刷入港版固件
+【实测刷入国行底包无影响】
+解决办法：
+1.设置shadowsocks，勾选&amp;quot;允许来自局域网的连接&amp;quot;
+2.打开cmd窗口，输入指令：ipconfig ，记下IPv4的地址
+连接Wifi时输入密码后不要直接连接，如下进行设置后再连接：  点击高级—》代理设置—》手动—》代理服务器主机名—》填入IPv4地址—》代理端口与shadowsocks代理端口设置一致 此时手机才可以登录Google，登录之前的Google账户后移除账户，FRP解锁。 最后感谢网络上的各位大神，得以提前品尝到的Oreo的滋味，同样不可避免的RGBC和ToF传感器均失灵，以上。
+参考链接，不分先后： 1.http://bbs.gfan.com/android-9161782-1-1.html 2.http://bbs.gfan.com/android-9187304-1-1.html 3.</description>
+    </item>
+    
+    <item>
+      <title>Orca</title>
+      <link>https://imorca.com/author/orca/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://imorca.com/author/orca/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

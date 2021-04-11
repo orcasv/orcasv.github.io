@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>screen on imorca</title>
+    <link>https://imorca.com/tags/screen/</link>
+    <description>Recent content in screen on imorca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Orca-2020</copyright>
+    <lastBuildDate>Thu, 06 Aug 2020 06:10:24 +0600</lastBuildDate><atom:link href="https://imorca.com/tags/screen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chrome 全屏看视频闪屏 黑屏</title>
+      <link>https://imorca.com/post/chrome-video-website-full-screen-black-screen/</link>
+      <pubDate>Thu, 06 Aug 2020 06:10:24 +0600</pubDate>
+      
+      <guid>https://imorca.com/post/chrome-video-website-full-screen-black-screen/</guid>
+      <description>最近发现使用chrome浏览器看视频的时候, 切换到全屏模式后, 屏幕会闪烁一下, Google之后找到了几个解决办法,操作如下: 1. 关闭硬件加速 如图所示:
+2. 修改Choose ANGLE graphics backend配置 Chrome(包括Edge Chromium和其他Chromium浏览器)地址栏输入: [chrome://flags/#use-angle]
+Windows机器建议把ANGLE调用的图形API阉割为D3D9。
+Google Chrome的硬件渲染一言难尽，Linux平台直接把Mesa甚至DRM搞挂都屡见不鲜，然而Google的解决方案居然不是修好硬件渲染而是SwiftShader。
+3. 卸载后重装 卸载Chrome，复制下面这个路径
+ %HOMEPATH%\AppData\Local\Google\Chrome
+ 到资源管理器里打开,然后整个删除，再次重新安装chrome就正常了</description>
+    </item>
+    
+  </channel>
+</rss>

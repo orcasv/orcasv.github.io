@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>折腾 on imorca</title>
+    <link>https://imorca.com/categories/%E6%8A%98%E8%85%BE/</link>
+    <description>Recent content in 折腾 on imorca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Orca-2020</copyright>
+    <lastBuildDate>Sat, 11 May 2019 15:40:24 +0600</lastBuildDate><atom:link href="https://imorca.com/categories/%E6%8A%98%E8%85%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ssh remote rsa login</title>
+      <link>https://imorca.com/post/ssh-remote-rsa-login/</link>
+      <pubDate>Sat, 11 May 2019 15:40:24 +0600</pubDate>
+      
+      <guid>https://imorca.com/post/ssh-remote-rsa-login/</guid>
+      <description>为了VPS的安全以及远程连接方便，设置成使用SSH Key免密码登录 1.生成RSA密钥对 用SSH连接远程服务器后，执行下面命令：
+ssh-keygen -t rsa 一路Enter即可
+Generating public/private rsa key pair. Enter file in which to save the key (/root/.ssh/id_rsa): Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in /root/.ssh/id_rsa. Your public key has been saved in /root/.ssh/id_rsa.pub. The key fingerprint is: SHA256:vO61YRuS6arVT7omHaN2WZg8PQZy7TzukG8Wf0lNZxk root@ubuntu1804 The key&amp;#39;s randomart image is: +---[RSA 2048]----+ | | | E | | .</description>
+    </item>
+    
+    <item>
+      <title>U盘无法复制文件, 报错 0x80071AC3</title>
+      <link>https://imorca.com/post/upan-0x80071ac3-error/</link>
+      <pubDate>Fri, 29 Mar 2019 20:20:52 +0800</pubDate>
+      
+      <guid>https://imorca.com/post/upan-0x80071ac3-error/</guid>
+      <description>&lt;p&gt;不知道什么原因，我的U盘插入Win7系统时无法复制文件，并弹出如下提示：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bandwagon host vps 搬瓦工</title>
+      <link>https://imorca.com/post/bandwagon-host-vps/</link>
+      <pubDate>Sat, 11 Aug 2018 20:20:52 +0800</pubDate>
+      
+      <guid>https://imorca.com/post/bandwagon-host-vps/</guid>
+      <description>BandwagonHost 简单介绍 因其官网网站标识是BandwagonHost，有点类似BanWaGong的拼写，所以我们喜欢称作为搬瓦工。搬瓦工VPS是一款性价比比较高的便宜VPS主机，且适合入门级网友学习Linux和建站用途.
+（申明和建议：严禁利用VPS、服务器用于违规用途，我们必须正规使用）
+搬瓦工VPS，隶属于美国IT7公司旗下的一款低价OpenVZ VPS主机方案、2017年新增KVM VPS架构，尤其是8款便宜年付VPS，无论从性价比还是稳定性都非常适合大众VPS用户需求，我们可以用来建站、Linux系统学习、软件调试，也可以完成各种初学者需要测试项目正规用途使用。 反正完全可以用作新手学习VPS主机选择性价比VPS使用。相继增加CN2线路、且在2017年10月份新增香港机房。
+ 注册账户并购买套餐 简介完毕，下面进入主题，BandwagonHost有很多套餐，但是对于个人用户来说我推荐下面这款套餐，物美价廉，完全满足我们个人的需求，配置如下：
+由于这个套餐在官网主页是看不到的，所以我们先点击图片注册
+
+注册完毕以后，来到管理面板，点击下图箭头所指的地方，OrderNewServices
+[]
+然后，完整复制括号内内容【SPECIAL 10G KVM PROMO V3 - LOS ANGELES - CN2】，按Ctrl+F查找，仔细对比确认无误后，点击箭头所示的，OrderNow{:target=&amp;quot;_blank&amp;quot;}，
+[]
+然后根据提示进行付款，付款的时候选择支付宝，然后扫一扫即可完成付款的哦。
+ 搭建SS服务 付款之后，找到这里，点击这个【Services-MyServices】
+
+点击跳转后，找到当前页面如下所示的地方，点击红色箭头指的那个
+
+然后来到了WEB端的管理界面，在左下角找到【OpenVPN Server】
+
+点击进去，按照提示进行操作即可。
+2019年5月13日 更新, 现在新购买的VPS找不到这个接口了, 那就手动搭建吧, 很快的相信我. 五分钟快速搭建GO版shadowsocks:
+// 新建文件夹 mkdir /usr/local/bin/shadowsocks cd /usr/local/bin/shadowsocks // 下载shadowsocks Golang二进制文件 wget &amp;lt;https://github.</description>
+    </item>
+    
+    <item>
+      <title>SONY XZP 刷机</title>
+      <link>https://imorca.com/post/sony-xzp/</link>
+      <pubDate>Sun, 29 Oct 2017 20:20:52 +0800</pubDate>
+      
+      <guid>https://imorca.com/post/sony-xzp/</guid>
+      <description>六月首发入XZP，手痒8.0，刷之。
+折腾步骤：
+1.驱动支持 源地址：http://www.flashtool.net/downloads_windows.php
+下载flashtool-0.9.23.1-windows.exe，默认安装后找到下图所示drivers目录，安装所需驱动，驱动安装选择前两个即可
+2.固件下载 Xperia Firmware Downloader [v5.2.0]
+源地址：
+https://forum.xda-developers.com/crossdevice-dev/sony/pc-xperifirm-xperia-firmware-downloader-t2834142
+Xperia Firmware 操作步骤：
+下载技巧：选择【Manual】手动复制链接到迅雷，按照文档指示步骤新建相应文件夹，迅雷下载时注意目录选择，一定要一一对应。 由于文件众多，迅雷下载设置如下，所有文件下载完毕十五分钟左右【视网速决定】：
+迅雷下载完毕，去除所有文件的后缀【.null】，TC操作:Ctrl+A后Ctrl+M
+文件重命名完毕，点击Merge按钮，得到下图所示的三个文件
+此时操作flashtool，对其进行解密，解密后得到30个文件和两个文件夹：
+3刷机工具 Newflasher v10 :
+https://forum.xda-developers.com/crossdevice-dev/sony/progress-newflasher-xperia-command-line-t3619426
+Newflasher v10 下载后解压复制到跟各种.sin .ta等文件一个目录，如图：
+提醒想用谷歌服务的同时开启移动volte的朋友，使用国行oem.sin文件替换后刷入即可，文末提供国行oem.sin。
+绿灯连接XZP【关机后按住音量下键不放同时连接数据线】，双击Newflasher工具等待刷机完成
+刷机注意事项，前两个输入n， 耐心等待即可
+PS：下列三点同时满足的情况机器开机时出现FRP锁：
+1.国行机器刷入港行的固件
+2.登录Google账户
+3.在未移除当前登录的Google账户时再次刷入港版固件
+【实测刷入国行底包无影响】
+解决办法：
+1.设置shadowsocks，勾选&amp;quot;允许来自局域网的连接&amp;quot;
+2.打开cmd窗口，输入指令：ipconfig ，记下IPv4的地址
+连接Wifi时输入密码后不要直接连接，如下进行设置后再连接：  点击高级—》代理设置—》手动—》代理服务器主机名—》填入IPv4地址—》代理端口与shadowsocks代理端口设置一致 此时手机才可以登录Google，登录之前的Google账户后移除账户，FRP解锁。 最后感谢网络上的各位大神，得以提前品尝到的Oreo的滋味，同样不可避免的RGBC和ToF传感器均失灵，以上。
+参考链接，不分先后： 1.http://bbs.gfan.com/android-9161782-1-1.html 2.http://bbs.gfan.com/android-9187304-1-1.html 3.</description>
+    </item>
+    
+  </channel>
+</rss>

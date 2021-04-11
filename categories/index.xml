@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on imorca</title>
+    <link>https://imorca.com/categories/</link>
+    <description>Recent content in Categories on imorca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Orca-2020</copyright>
+    <lastBuildDate>Sat, 10 Apr 2021 12:14:52 +0800</lastBuildDate><atom:link href="https://imorca.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android</title>
+      <link>https://imorca.com/categories/android/</link>
+      <pubDate>Sat, 10 Apr 2021 12:14:52 +0800</pubDate>
+      
+      <guid>https://imorca.com/categories/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google</title>
+      <link>https://imorca.com/categories/google/</link>
+      <pubDate>Thu, 06 Aug 2020 06:10:24 +0600</pubDate>
+      
+      <guid>https://imorca.com/categories/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>折腾</title>
+      <link>https://imorca.com/categories/%E6%8A%98%E8%85%BE/</link>
+      <pubDate>Sat, 11 May 2019 15:40:24 +0600</pubDate>
+      
+      <guid>https://imorca.com/categories/%E6%8A%98%E8%85%BE/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>https://imorca.com/categories/github/</link>
+      <pubDate>Sun, 07 Apr 2019 07:09:52 +0800</pubDate>
+      
+      <guid>https://imorca.com/categories/github/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

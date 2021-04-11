@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SONY Xperia on imorca</title>
+    <link>https://imorca.com/tags/sony-xperia/</link>
+    <description>Recent content in SONY Xperia on imorca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Orca-2020</copyright>
+    <lastBuildDate>Sun, 29 Oct 2017 20:20:52 +0800</lastBuildDate><atom:link href="https://imorca.com/tags/sony-xperia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SONY XZP 刷机</title>
+      <link>https://imorca.com/post/sony-xzp/</link>
+      <pubDate>Sun, 29 Oct 2017 20:20:52 +0800</pubDate>
+      
+      <guid>https://imorca.com/post/sony-xzp/</guid>
+      <description>六月首发入XZP，手痒8.0，刷之。
+折腾步骤：
+1.驱动支持 源地址：http://www.flashtool.net/downloads_windows.php
+下载flashtool-0.9.23.1-windows.exe，默认安装后找到下图所示drivers目录，安装所需驱动，驱动安装选择前两个即可
+2.固件下载 Xperia Firmware Downloader [v5.2.0]
+源地址：
+https://forum.xda-developers.com/crossdevice-dev/sony/pc-xperifirm-xperia-firmware-downloader-t2834142
+Xperia Firmware 操作步骤：
+下载技巧：选择【Manual】手动复制链接到迅雷，按照文档指示步骤新建相应文件夹，迅雷下载时注意目录选择，一定要一一对应。 由于文件众多，迅雷下载设置如下，所有文件下载完毕十五分钟左右【视网速决定】：
+迅雷下载完毕，去除所有文件的后缀【.null】，TC操作:Ctrl+A后Ctrl+M
+文件重命名完毕，点击Merge按钮，得到下图所示的三个文件
+此时操作flashtool，对其进行解密，解密后得到30个文件和两个文件夹：
+3刷机工具 Newflasher v10 :
+https://forum.xda-developers.com/crossdevice-dev/sony/progress-newflasher-xperia-command-line-t3619426
+Newflasher v10 下载后解压复制到跟各种.sin .ta等文件一个目录，如图：
+提醒想用谷歌服务的同时开启移动volte的朋友，使用国行oem.sin文件替换后刷入即可，文末提供国行oem.sin。
+绿灯连接XZP【关机后按住音量下键不放同时连接数据线】，双击Newflasher工具等待刷机完成
+刷机注意事项，前两个输入n， 耐心等待即可
+PS：下列三点同时满足的情况机器开机时出现FRP锁：
+1.国行机器刷入港行的固件
+2.登录Google账户
+3.在未移除当前登录的Google账户时再次刷入港版固件
+【实测刷入国行底包无影响】
+解决办法：
+1.设置shadowsocks，勾选&amp;quot;允许来自局域网的连接&amp;quot;
+2.打开cmd窗口，输入指令：ipconfig ，记下IPv4的地址
+连接Wifi时输入密码后不要直接连接，如下进行设置后再连接：  点击高级—》代理设置—》手动—》代理服务器主机名—》填入IPv4地址—》代理端口与shadowsocks代理端口设置一致 此时手机才可以登录Google，登录之前的Google账户后移除账户，FRP解锁。 最后感谢网络上的各位大神，得以提前品尝到的Oreo的滋味，同样不可避免的RGBC和ToF传感器均失灵，以上。
+参考链接，不分先后： 1.http://bbs.gfan.com/android-9161782-1-1.html 2.http://bbs.gfan.com/android-9187304-1-1.html 3.</description>
+    </item>
+    
+  </channel>
+</rss>

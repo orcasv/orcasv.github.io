@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GithubGithub on imorca</title>
+    <link>https://imorca.com/tags/githubgithub/</link>
+    <description>Recent content in GithubGithub on imorca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Orca-2020</copyright>
+    <lastBuildDate>Sun, 07 Apr 2019 07:09:52 +0800</lastBuildDate><atom:link href="https://imorca.com/tags/githubgithub/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use Hugo and Github Create Static Blog</title>
+      <link>https://imorca.com/post/how-to-use-hugo-and-github-create-static-blog/</link>
+      <pubDate>Sun, 07 Apr 2019 07:09:52 +0800</pubDate>
+      
+      <guid>https://imorca.com/post/how-to-use-hugo-and-github-create-static-blog/</guid>
+      <description>Hugo &amp;amp; Github 搭建静态博客 操作前提： 1.安装Hugo 2.安装git及后续
+ 下面分为两个部分 第一部分, 安装Hugo 使用Hugo建立本地网站,详细教程见官网： https://gohugo.io/getting-started/quick-start/
+简单步骤：
+1.下载&amp;mdash;&amp;gt;解压&amp;mdash;&amp;gt;在Hugo同级目录新建一个文件夹，比如sites, 用来保存网站内容：
+2.将Hugo的安装目录加入到环境变量
+3.初始化新网站内容
+进入sites目录，【shift+右键】弹出右键菜单，选择“在此处打开命令窗口”，执行命令
+【hugo new site websitename 】 websitename 是自定义的，建议设置为网站主域名，以免混淆
+4.添加主题，到这里【https://themes.gohugo.io/】找一款自己喜欢的主题，找到其Github repo地址，命令行操作：
+【git clone https://github.com/silvanocerza/spectrum.git 】 // 后面的主题是随便挑的
+5.新建文章，命令行操作
+【hugo new posts/xxxxxx.md】 // markdown 格式文档，以后可在别处写好.md格式的文档，然后直接放入public目录
+6.修改网站config.toml配置文件
+7.本地预览博客效果，【hugo server】
+第二部分, 安装git及后续 将本地网站内容部署到github，Github Pages支持两种方式的网站部署，详细见官网介绍：https://pages.github.com
+这里使用【用户或者组织网站】的方式进行部署
+1.新建空仓库，仓库名称必须是username.github.io格式，【username必须是你个人github的账号名称】</description>
+    </item>
+    
+  </channel>
+</rss>

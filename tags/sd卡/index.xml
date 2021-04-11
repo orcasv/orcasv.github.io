@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SD卡 on imorca</title>
+    <link>https://imorca.com/tags/sd%E5%8D%A1/</link>
+    <description>Recent content in SD卡 on imorca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Orca-2020</copyright>
+    <lastBuildDate>Sat, 10 Apr 2021 12:14:52 +0800</lastBuildDate><atom:link href="https://imorca.com/tags/sd%E5%8D%A1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>解密Android格式化为内部存储的损坏的SD卡</title>
+      <link>https://imorca.com/post/android-decrypt-the-corrupt-sd-card-formatted-as-internal-storage/</link>
+      <pubDate>Sat, 10 Apr 2021 12:14:52 +0800</pubDate>
+      
+      <guid>https://imorca.com/post/android-decrypt-the-corrupt-sd-card-formatted-as-internal-storage/</guid>
+      <description>解密格式化为内部存储的损坏的SD卡
+当SD卡被Android手机格式化为内部存储后如何恢复数据
+前提：
+1.手机已经root
+2.手机未重置刷机等，保证 key 还在
+3.手机文件浏览器，比如ES Explorer或者Root Explorer
+4.十六进制编辑器，比如WinHex或者010Editor
+5.Linux系统， 虚拟机安装桌面环境，推荐Ubuntu20
+6.读卡器，将SD卡挂载到Linux内
+具体步骤：
+1.找到解密的key文件， 使用Root Explorer打开 /data/misc/vold 目录，会看到一个或多个以expand开头key结尾的文件，复制最新的那个到 /data/media/0 目录，
+2.将手机关机进入Recovery系统模式，电脑端打开手机的内部存储可以看到刚才复制出来的key文件，使用010Editor打开这个文件，将其内容以十六进制方式复制出来备用，类似下面这种形式：
+AB 36 E5 0B A6 B2 2F 04 19 F7 AE DC C0 37 3C C3
+3.将手机SD卡取出，插入到读卡器中，打开Ubuntu20虚拟机，将SD挂载到Ubuntu20虚拟机，终端执行命令
+dmsetup create crypt1 &amp;ndash;table &amp;ldquo;0 blockdev --getsize /dev/sdb2 crypt aes-cbc-essiv:sha256 AB36E50BA6B22F0419F7AEDCC0373CC3 0 /dev/sdb2 0&amp;rdquo;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vs2019 on imorca</title>
+    <link>https://imorca.com/tags/vs2019/</link>
+    <description>Recent content in vs2019 on imorca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Orca-2020</copyright>
+    <lastBuildDate>Sat, 06 Apr 2019 23:09:52 +0800</lastBuildDate><atom:link href="https://imorca.com/tags/vs2019/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何使用 Github 同步 Visual Studio 2017/2019 项目</title>
+      <link>https://imorca.com/post/how-to-use-github-sync-visual-studio-2017-2019/</link>
+      <pubDate>Sat, 06 Apr 2019 23:09:52 +0800</pubDate>
+      
+      <guid>https://imorca.com/post/how-to-use-github-sync-visual-studio-2017-2019/</guid>
+      <description>操作前提：
+1.已安装VS2017或者VS2019
+2.已安装Git
+好了，下面开始。首先右键点击项目，注意是在【解决方案”项目名称“】上面右键点击
+然后单击“团队资源管理器”，
+双击当前的项目，点击上方的同步按钮
+找到下方的推送到“远程存储库”，点击发布Git存储库，在弹出的窗口中登录自己的Gtihub账号
+网页登录Github账户，新建一个空的仓库【repository】，注意不要勾选下方的初始化README按钮，默认即可，点击“Create repository”
+接着打开新建的仓库，点击最右侧的那个绿色按钮，复制弹出窗口中的那个地址，即刚才新建的仓库的地址，粘贴到记事本上，后面需要用到
+此时操作VS2019， 打开“团队资源管理器”窗口，将刚才从Github仓库中复制下来的地址填入下方箭头所示位置，然后点击”发布“
+好了，到这里就可以了。
+不过有可能你会遇到提示同步失败的问题，比如同步窗口提示这个错误：
+输出窗口是这样：
+下面就是我的解决方案，都是一步一步摸索出来的，希望能帮到同样遇到这个困惑的你，如下图进行操作
+根据输出窗口的提示，在打开的命令行提示符内依次输出下面三条指令：
+【git pull origin master &amp;ndash;allow-unrelated-histories】
+【git pull origin master】
+【git push origin master】
+下面是同步成功时“团队资源管理器窗口的状态”
+嗯，解决了，就这样，有问题留言吧</description>
+    </item>
+    
+  </channel>
+</rss>
