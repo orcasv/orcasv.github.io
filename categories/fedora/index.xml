@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Fedora on Iorca Blog</title>
+		<link>https://iorca.cc/categories/fedora/</link>
+		<description>Recent content in Fedora on Iorca Blog</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 24 Dec 2025 20:35:18 +0800</lastBuildDate>
+		
+			<atom:link href="https://iorca.cc/categories/fedora/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Firewall防火墙教程</title>
+				<link>https://iorca.cc/posts/firewall%E9%98%B2%E7%81%AB%E5%A2%99%E6%95%99%E7%A8%8B/</link>
+				<pubDate>Wed, 24 Dec 2025 20:35:18 +0800</pubDate>
+				<guid>https://iorca.cc/posts/firewall%E9%98%B2%E7%81%AB%E5%A2%99%E6%95%99%E7%A8%8B/</guid>
+				<description>&lt;p&gt;Fedora 防火墙教程主要围绕 firewalld 服务和 firewall-cmd 命令行工具进行，通过 区域 (zones)、服务 (services) 和 端口 (ports) 来管理规则，关键操作包括启动/停止/重启服务 (systemctl)、查看状态 (firewall-cmd --state)、永久或运行时添加/删除端口/服务 (--add-port, --remove-port, --add-service, --remove-service)，以及重新加载配置 (--reload)，实现动态、灵活的流量控制。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

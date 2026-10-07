@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Github同步 on Iorca Blog</title>
+		<link>https://iorca.cc/tags/github%E5%90%8C%E6%AD%A5/</link>
+		<description>Recent content in Github同步 on Iorca Blog</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 19 Apr 2019 20:35:18 +0800</lastBuildDate>
+		
+			<atom:link href="https://iorca.cc/tags/github%E5%90%8C%E6%AD%A5/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>如何使用 Github 同步 Visual Studio 2017-2019 项目</title>
+				<link>https://iorca.cc/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-github-%E5%90%8C%E6%AD%A5-visual-studio-2017-2019-%E9%A1%B9%E7%9B%AE/</link>
+				<pubDate>Fri, 19 Apr 2019 20:35:18 +0800</pubDate>
+				<guid>https://iorca.cc/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-github-%E5%90%8C%E6%AD%A5-visual-studio-2017-2019-%E9%A1%B9%E7%9B%AE/</guid>
+				<description>&lt;p&gt;操作前提：&lt;/p&gt;&#xA;&lt;p&gt;1.已安装VS2017或者VS2019&lt;/p&gt;&#xA;&lt;p&gt;2.已安装Git&lt;/p&gt;&#xA;&lt;p&gt;好了，下面开始。首先右键点击项目，注意是在【解决方案”项目名称“】上面右键点击&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&lt;figure&#xA;  class=&#34;image-figure not-prose my-8&#34;&#xA;  data-lightbox-enabled=&#34;&#xA;    true&#xA;  &#34;&#xA;  data-gallery-type=&#34;auto&#34;&#xA;  data-image-width=&#34;273&#34;&#xA;  data-image-height=&#34;363&#34;&#xA;  data-image-src=&#34;https://iorca.cc/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-github-%E5%90%8C%E6%AD%A5-visual-studio-2017-2019-%E9%A1%B9%E7%9B%AE/visual-studio-2019-01.jpg&#34;&#xA;&gt;&#xA;  &lt;div class=&#34;image-container&#34;&gt;&#xA;    &lt;img&#xA;    src=&#34;https://iorca.cc/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-github-%E5%90%8C%E6%AD%A5-visual-studio-2017-2019-%E9%A1%B9%E7%9B%AE/visual-studio-2019-01.jpg&#34;&#xA;    alt=&#34;1&#34;&#xA;    &#xA;    &#xA;      &#xA;      &#xA;        &#xA;          width=&#34;273&#34; height=&#34;363&#34;&#xA;        &#xA;      &#xA;    &#xA;    loading=&#34;lazy&#34;&#xA;    decoding=&#34;async&#34;&#xA;    data-gallery-src=&#34;https://iorca.cc/posts/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-github-%E5%90%8C%E6%AD%A5-visual-studio-2017-2019-%E9%A1%B9%E7%9B%AE/visual-studio-2019-01.jpg&#34;&#xA;    data-gallery-alt=&#34;1&#34;&#xA;    data-gallery-title=&#34;&#34;&#xA;  /&gt;&lt;/div&gt;&#xA;&#xA;  &lt;/figure&gt;&#xA;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

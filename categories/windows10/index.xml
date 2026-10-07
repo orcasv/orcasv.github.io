@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Windows10 on Iorca Blog</title>
+		<link>https://iorca.cc/categories/windows10/</link>
+		<description>Recent content in Windows10 on Iorca Blog</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 07 Oct 2026 14:50:06 +0800</lastBuildDate>
+		
+			<atom:link href="https://iorca.cc/categories/windows10/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Windows 10开启DoH功能</title>
+				<link>https://iorca.cc/posts/windows-10%E5%BC%80%E5%90%AFdoh%E5%8A%9F%E8%83%BD/</link>
+				<pubDate>Wed, 07 Oct 2026 14:50:06 +0800</pubDate>
+				<guid>https://iorca.cc/posts/windows-10%E5%BC%80%E5%90%AFdoh%E5%8A%9F%E8%83%BD/</guid>
+				<description>&lt;h3 id=&#34;基本定义&#34;&gt;基本定义&lt;a href=&#34;#%e5%9f%ba%e6%9c%ac%e5%ae%9a%e4%b9%89&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4 id=&#34;什么是doh&#34;&gt;什么是DoH?&lt;a href=&#34;#%e4%bb%80%e4%b9%88%e6%98%afdoh&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;DoH 全称是 DNS over HTTPS 基于HTTPS的DNS查询服务。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
